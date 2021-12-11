@@ -23,17 +23,17 @@ int fib(int term)
     int count = 0;
 
     //
-    if(term <= 0) 
+    if (term <= 0)
     {
         std::cout << "Please enter a positive integer.";
     }
-    else if(term == 1) 
+    else if (term == 1)
     {
         std::cout << "Fibonacci term at " << term << ":" << n0 << std::endl;
     }
     else
     {
-        while(count < term)
+        while (count < term)
         {
             std::cout << n0 << std::endl;
             int nth = n0 + n1;
