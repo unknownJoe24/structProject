@@ -5,8 +5,10 @@ nterm = int(input("Enter Fibonacci term: "))
 n0, n1 = 0, 1
 term = 0
 
+#
 if nterm <= 0:
-    print("Pleas enter a positive integer")
+    print("Please enter a positive integer")
+#
 elif nterm == 1:
     print("Fibonacci term at ", nterm, ":")
     print(n0)

@@ -1,1 +1,2 @@
 # structProject
+Created a program in both Python and C++ that prints out the Fibonacci sequence up to the number of terms requested by the user. The compiler used for the Python is Python version is 3.9.9 on Windows and the compiler used for C++ 
