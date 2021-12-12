@@ -22,18 +22,20 @@ int fib(int term)
     int n1 = 1;
     int count = 0;
 
-    //
+    //check if number of terms is valid
     if (term <= 0)
     {
         std::cout << "Please enter a positive integer.";
     }
+    //if only one term return n0
     else if (term == 1)
     {
-        std::cout << "Fibonacci term at " << term << ":" << n0 << std::endl;
+        std::cout << "Fibonacci sequence at " << term << ": " << n0 << std::endl;
     }
     else
     {
-        while (count < term)
+        std::cout << "Fibonacci sequence: " << std::endl;
+        while (count < term) //loop to print out sequence until the n-th term is reached
         {
             std::cout << n0 << std::endl;
             int nth = n0 + n1;
